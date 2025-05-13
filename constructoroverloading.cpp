@@ -13,3 +13,7 @@ class mahasiswa {
     mahasiswa(int iNim, string iNama);
     void cetak();
 };
+
+mahasiswa::mahasiswa(){
+}
+
