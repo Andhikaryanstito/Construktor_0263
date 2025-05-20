@@ -17,3 +17,9 @@ Barang::Barang(string nama, int kode) {
     namaBarang = nama;
     kodeBarang = kode;
 } 
+// Fungsi tampilkanInfo didefinisikan di luar class
+void Barang::tampilkanInfo() {
+    cout << "Nama Barang : " << namaBarang << endl;
+    cout << "Kode Barang : " << kodeBarang << endl;
+}
+
