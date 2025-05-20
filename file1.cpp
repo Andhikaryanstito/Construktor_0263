@@ -22,4 +22,16 @@ void Barang::tampilkanInfo() {
     cout << "Nama Barang : " << namaBarang << endl;
     cout << "Kode Barang : " << kodeBarang << endl;
 }
+// Fungsi utama
+int main() {
+    Barang barang1("ASUS ROG ", 1001);
+    Barang barang2("SAMSUNG S24", 1002);
 
+    cout << "=== Barang 1 ===" << endl;
+    barang1.tampilkanInfo();
+
+    cout << "\n=== Barang 2 ===" << endl;
+    barang2.tampilkanInfo();
+
+    return 0;
+}
