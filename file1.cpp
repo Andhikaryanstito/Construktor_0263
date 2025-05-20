@@ -16,4 +16,4 @@ public:
 Barang::Barang(string nama, int kode) {
     namaBarang = nama;
     kodeBarang = kode;
-}
+} 
