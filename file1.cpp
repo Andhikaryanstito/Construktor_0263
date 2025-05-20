@@ -12,4 +12,8 @@ public:
     void tampilkanInfo();
 };
 
-
+// Constructor didefinisikan di luar class
+Barang::Barang(string nama, int kode) {
+    namaBarang = nama;
+    kodeBarang = kode;
+}
